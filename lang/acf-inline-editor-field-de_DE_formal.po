@@ -1,0 +1,184 @@
+# Copyright (C) 2024 Adam Bichler
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF Inline Editor Field 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/acf-acf-inline-"
+"editor-field\n"
+"POT-Creation-Date: 2024-04-11T13:01:46+00:00\n"
+"PO-Revision-Date: 2024-04-11 15:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: acf-inline-editor-field\n"
+
+#. Plugin Name of the plugin
+#: acf-inline-editor-field.php
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:47
+msgid "ACF Inline Editor Field"
+msgstr "ACF Inline Editor Field"
+
+#. Plugin URI of the plugin
+#: acf-inline-editor-field.php
+msgid "https://github.com/adambichler/acf-inline-editor-field"
+msgstr "https://github.com/adambichler/acf-inline-editor-field"
+
+#. Description of the plugin
+#: acf-inline-editor-field.php
+msgid ""
+"ACF Inline Editor Field is a custom field for Advanced Custom Fields which "
+"allows you to edit field values directly in the field, without a toolbar."
+msgstr ""
+"ACF Inline-Editor-Feld ist ein benutzerdefiniertes Feld für ACF, mit dem du "
+"Feldwerte direkt im Feld bearbeiten kannst, ohne eine Symbolleiste zu "
+"verwenden."
+
+#. Author of the plugin
+#: acf-inline-editor-field.php
+msgid "Adam Bichler"
+msgstr "Adam Bichler"
+
+#. Author URI of the plugin
+#: acf-inline-editor-field.php
+msgid "https://www.adambichler.at"
+msgstr "https://www.adambichler.at"
+
+#: acf-inline-editor-field.php:28
+msgid ""
+"ACF Inline Editor Field requires Advanced Custom Fields to be installed and "
+"activated. Without ACF active, the plugin cannot be activated."
+msgstr ""
+"ACF Inline-Editor-Feld erfordert die Installation und Aktivierung von "
+"Advanced Custom Fields. Wenn ACF nicht aktiv ist, kann das Plugin nicht "
+"aktiviert werden."
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:59
+msgid "This field enables formatting text in a field without a toolbar."
+msgstr ""
+"Dieses Feld ermöglicht die Formatierung von Text in einem Feld ohne "
+"Symbolleiste."
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:101
+msgid "Error! Please enter a higher value"
+msgstr "Fehler! Bitte gib einen höheren Wert ein"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:137
+msgid "Show \"bold\" option in toolbar"
+msgstr "Option “Fett” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:138
+msgid "If the formatting option for \"bold\" should be visible"
+msgstr "Ob die Formatierungsoption für “Fett” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:142
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:155
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:168
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:181
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:194
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:207
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:220
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:233
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:246
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:259
+msgid "Yes"
+msgstr "Ja"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:143
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:156
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:169
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:182
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:195
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:208
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:221
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:234
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:247
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:260
+msgid "No"
+msgstr "Nein"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:150
+msgid "Show \"italic\" option in toolbar"
+msgstr "Option “Kursiv” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:151
+msgid "If the formatting option for \"italic\" should be visible"
+msgstr "Ob die Formatierungsoption für “Kursiv” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:163
+msgid "Show \"underline\" option in toolbar"
+msgstr "Option “Unterstreichung” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:164
+msgid "If the formatting option for \"underline\" should be visible"
+msgstr "Ob die Formatierungsoption für “Unterstreichung” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:176
+msgid "Show \"link to\" option in toolbar"
+msgstr "Option “Verlinkung” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:177
+msgid "If the formatting option for \"link to\" should be visible"
+msgstr "Ob die Formatierungsoption für “Verlinkung” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:189
+msgid "Show \"h1\" option in toolbar"
+msgstr "Option “Überschrift 1 (H1)” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:190
+msgid "If the formatting option for \"h1\" should be visible"
+msgstr ""
+"Ob die Formatierungsoption für “Überschrift 1 (H1)” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:202
+msgid "Show \"h2\" option in toolbar"
+msgstr "Option “Überschrift 2 (H2)” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:203
+msgid "If the formatting option for \"h2\" should be visible"
+msgstr ""
+"Ob die Formatierungsoption für “Überschrift 2 (H2)” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:215
+msgid "Show \"h3\" option in toolbar"
+msgstr "Option “Überschrift 3 (H3)” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:216
+msgid "If the formatting option for \"h3\" should be visible"
+msgstr ""
+"Ob die Formatierungsoption für “Überschrift 3 (H3)” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:228
+msgid "Show \"quote\" option in toolbar"
+msgstr "Option “Zitat” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:229
+msgid "If the formatting option for \"quote\" should be visible"
+msgstr "Ob die Formatierungsoption für “Zitat” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:241
+msgid "Show \"unordered list\" option in toolbar"
+msgstr "Option “Aufzählungsliste” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:242
+msgid "If the formatting option for \"unordered list\" should be visible"
+msgstr "Ob die Formatierungsoption für “Aufzählungsliste” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:254
+msgid "Show \"ordered list\" option in toolbar"
+msgstr "Option “Nummerierte Liste” in der Symbolleiste anzeigen"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:255
+msgid "If the formatting option for \"ordered list\" should be visible"
+msgstr "Ob die Formatierungsoption für “Nummerierte Liste” sichtbar sein soll"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:298
+msgid "Type your text here"
+msgstr "Hier Text eingeben"
+
+#: class-acf-inline-editor-field-acf-field-acf-inline-editor-field.php:299
+msgid "Highlight some text to show formatting options."
+msgstr "Text markieren um Formatierungsoptionen anzuzeigen."

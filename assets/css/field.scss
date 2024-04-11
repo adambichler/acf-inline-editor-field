@@ -1,0 +1,36 @@
+/**
+ * Included when fields of this type are rendered for editing by publishers.
+ */
+ .acf-field-acf-inline-editor-field{
+    font-size: 14px;
+    /*color: green;*/
+    
+    .medium-editor-field {
+        //border:1px solid #8c8f94;
+        border-radius: 4px;
+        background:#ffffff;
+        padding: 0px 0px;
+        color: #000000;
+        min-height: 1em;
+        p {
+            margin: 0px;
+        }
+        ul {
+            margin-left: 10px;
+            li {
+                list-style-type: disc;
+            }
+        }
+        ol {
+            margin-left: 10px;
+            li {
+                list-style-type: decimal;
+            }
+        }
+        blockquote {
+            border-left: 3px solid #8c8f94;
+            padding: 10px;
+            margin: 10px 0px;
+        }
+    }
+}
