@@ -284,20 +284,9 @@ class acf_inline_editor_field extends \acf_field
 		// Display an input field that uses the 'font_size' setting.
 		$rand_id = uniqid();
 ?>
-<textarea class="acf-inline-editor-field-text medium-editor-field init medium-editor-field-<?php echo $rand_id; ?>"
-    name="<?php echo esc_attr($field['name']) ?>" data-bold-button="<?php echo esc_attr($field['button_bold']) ?>"
-    data-italic-button="<?php echo esc_attr($field['button_italic']) ?>"
-    data-underline-button="<?php echo esc_attr($field['button_underline']) ?>"
-    data-anchor-button="<?php echo esc_attr($field['button_anchor']) ?>"
-    data-h1-button="<?php echo esc_attr($field['button_h2']) ?>"
-    data-h2-button="<?php echo esc_attr($field['button_h2']) ?>"
-    data-h3-button="<?php echo esc_attr($field['button_h3']) ?>"
-    data-quote-button="<?php echo esc_attr($field['button_quote']) ?>"
-    data-ul-button="<?php echo esc_attr($field['button_ul']) ?>"
-    data-ol-button="<?php echo esc_attr($field['button_ol']) ?>"
-    placeholder="<?php echo __('Type your text here', 'acf-inline-editor-field'); ?>"><?php echo esc_attr($field['value']) ?></textarea>
-<p class="description">
-    <?php echo __('Highlight some text to show formatting options.', 'acf-inline-editor-field'); ?></p>
+		<textarea class="acf-inline-editor-field-text medium-editor-field init medium-editor-field-<?php echo esc_attr($rand_id); ?>" name="<?php echo esc_attr($field['name']) ?>" data-bold-button="<?php echo esc_attr($field['button_bold']) ?>" data-italic-button="<?php echo esc_attr($field['button_italic']) ?>" data-underline-button="<?php echo esc_attr($field['button_underline']) ?>" data-anchor-button="<?php echo esc_attr($field['button_anchor']) ?>" data-h1-button="<?php echo esc_attr($field['button_h2']) ?>" data-h2-button="<?php echo esc_attr($field['button_h2']) ?>" data-h3-button="<?php echo esc_attr($field['button_h3']) ?>" data-quote-button="<?php echo esc_attr($field['button_quote']) ?>" data-ul-button="<?php echo esc_attr($field['button_ul']) ?>" data-ol-button="<?php echo esc_attr($field['button_ol']) ?>" placeholder="<?php echo esc_attr(__('Type your text here', 'acf-inline-editor-field')); ?>"><?php echo esc_attr($field['value']) ?></textarea>
+		<p class="description">
+			<?php echo esc_attr(__('Highlight some text to show formatting options.', 'acf-inline-editor-field')); ?></p>
 <?php
 
 	}
@@ -322,21 +311,24 @@ class acf_inline_editor_field extends \acf_field
 			'acf_inline_editor_field-acf-inline-editor-field',
 			"{$url}assets/js/field.js",
 			array('acf-input', 'medium-editor-autolist', 'medium-editor'),
-			$version
+			$version,
+			true
 		);
 		//Include the medium editor script
 		wp_register_script(
 			'medium-editor-autolist',
 			"{$url}bower_components/medium-editor/dist/js/medium-editor.min.js",
 			array(),
-			$version
+			$version,
+			true
 		);
 		//Include the medium editor autolist script
 		wp_register_script(
 			'medium-editor',
 			"{$url}bower_components/medium-editor-autolist/dist/autolist.min.js",
 			array(),
-			$version
+			$version,
+			true
 		);
 
 		/**********
@@ -347,7 +339,8 @@ class acf_inline_editor_field extends \acf_field
 			'acf_inline_editor_field-acf-inline-editor-field',
 			"{$url}assets/css/field.css",
 			array('acf-input'),
-			$version
+			$version,
+			true
 		);
 
 		//Include the medium editor styles
@@ -355,13 +348,15 @@ class acf_inline_editor_field extends \acf_field
 			'medium-editor',
 			"{$url}bower_components/medium-editor/dist/css/medium-editor.min.css",
 			array(),
-			$version
+			$version,
+			true
 		);
 		wp_register_style(
 			'medium-editor-theme',
 			"{$url}bower_components/medium-editor/dist/css/themes/beagle.css",
 			array(),
-			$version
+			$version,
+			true
 		);
 
 		wp_enqueue_script('acf_inline_editor_field-acf-inline-editor-field');

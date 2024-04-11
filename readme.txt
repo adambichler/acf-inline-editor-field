@@ -43,10 +43,14 @@ This section describes how to install the plugin and get it working.
 No, ACF (Advanced Custom Fields) is required for this plugin to work. Both versions, free and pro, are supported.
 
 == Screenshots ==
-1. Desktop view
-2. Mobile view
+1. The field options, there are more options available than shown in the screenshot.
+2. The view when you edit the field.
 
 == Changelog ==
+
+= v1.0.1 =
+* Escape all strings, add banners and icons for the plugin and force all scripts and styles to load in the footer, to better comply with WordPress coding standards.
+
 = v1.0.0 =
 * Initial release
 

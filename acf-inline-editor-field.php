@@ -3,13 +3,13 @@
 Plugin Name:  ACF Inline Editor Field
 Plugin URI:   https://github.com/adambichler/acf-inline-editor-field
 Description:  ACF Inline Editor Field is a custom field for Advanced Custom Fields which allows you to edit field values directly in the field, without a toolbar.
-Version:      1.0.0
+Version:      1.0.1
 Author:       Adam Bichler
 Author URI:   https://www.adambichler.at
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  acf-inline-editor-field
-Domain Path:  /languages
+Domain Path:  /lang
 */
 
 
@@ -30,10 +30,10 @@ function load_acf_inline_editor_field()
         function acf_inline_editor_field_admin_notice()
         {
 ?>
-<div class="notice notice-error is-dismissible">
-    <p><?php _e('ACF Inline Editor Field requires Advanced Custom Fields to be installed and activated. Without ACF active, the plugin cannot be activated.', 'acf-inline-editor-field'); ?>
-    </p>
-</div>
+            <div class="notice notice-error is-dismissible">
+                <p><?php echo esc_attr(__('ACF Inline Editor Field requires Advanced Custom Fields to be installed and activated. Without ACF active, the plugin cannot be activated.', 'acf-inline-editor-field')); ?>
+                </p>
+            </div>
 <?php
         }
         //deactivate the plugin
