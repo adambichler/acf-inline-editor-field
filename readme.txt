@@ -4,8 +4,8 @@ Contributors: theadam123
 Tags: custom field, ACF, inline, editor
 Requires at least: 6.0
 Requires PHP: 7.4
-Tested up to: 6.5
-Stable tag: 1.0.0
+Tested up to: 6.5.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,9 @@ No, ACF (Advanced Custom Fields) is required for this plugin to work. Both versi
 2. The view when you edit the field.
 
 == Changelog ==
+
+= v1.0.2 =
+* Change the order and place where scripts and styles are loaded 
 
 = v1.0.1 =
 * Escape all strings, add banners and icons for the plugin and force all scripts and styles to load in the footer, to better comply with WordPress coding standards.

@@ -316,7 +316,7 @@ class acf_inline_editor_field extends \acf_field
 		);
 		//Include the medium editor script
 		wp_register_script(
-			'medium-editor-autolist',
+			'medium-editor',
 			"{$url}bower_components/medium-editor/dist/js/medium-editor.min.js",
 			array(),
 			$version,
@@ -324,9 +324,9 @@ class acf_inline_editor_field extends \acf_field
 		);
 		//Include the medium editor autolist script
 		wp_register_script(
-			'medium-editor',
+			'medium-editor-autolist',
 			"{$url}bower_components/medium-editor-autolist/dist/autolist.min.js",
-			array(),
+			array('medium-editor'),
 			$version,
 			true
 		);
@@ -349,14 +349,14 @@ class acf_inline_editor_field extends \acf_field
 			"{$url}bower_components/medium-editor/dist/css/medium-editor.min.css",
 			array(),
 			$version,
-			true
+			false
 		);
 		wp_register_style(
 			'medium-editor-theme',
 			"{$url}bower_components/medium-editor/dist/css/themes/beagle.css",
 			array(),
 			$version,
-			true
+			false
 		);
 
 		wp_enqueue_script('acf_inline_editor_field-acf-inline-editor-field');

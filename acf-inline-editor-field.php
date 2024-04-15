@@ -3,7 +3,7 @@
 Plugin Name:  ACF Inline Editor Field
 Plugin URI:   https://github.com/adambichler/acf-inline-editor-field
 Description:  ACF Inline Editor Field is a custom field for Advanced Custom Fields which allows you to edit field values directly in the field, without a toolbar.
-Version:      1.0.1
+Version:      1.0.2
 Author:       Adam Bichler
 Author URI:   https://www.adambichler.at
 License:      GPL2
