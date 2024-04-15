@@ -29,19 +29,3 @@ function acf_ief_load_translations()
 {
 	load_plugin_textdomain('acf-inline-editor-field', false, dirname(plugin_basename(__FILE__)) . '/lang/');
 }
-
-
-/********************************
- * CHECK THE PLUGIN FOR UPDATES *
- *******************************/
-require_once(plugin_dir_path(__FILE__) . '/vendor/autoload.php');
-
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
-
-$updateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/adambichler/acf-inline-editor-field',
-	__FILE__,
-	'acf-inline-editor-field'
-);
-//The branch that contains the stable release
-$updateChecker->setBranch('main');
